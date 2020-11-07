@@ -1,5 +1,7 @@
 <html lang="en">
+
   <head>
+      {% load staticfiles %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -56,7 +58,7 @@
         <a class="nav-link" href="#">مباراة اليوم</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="{% static '1.jpg' %}">Link</a>
       </li>
       <li class="nav-item">
         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
